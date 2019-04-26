@@ -1,0 +1,10 @@
+# -*- coding: utf-8; mode: python -*-
+
+## Input generators.
+#cxx_generator(src='generator.cc', dependency=['testlib.h'])
+
+## Input validators.
+#cxx_validator(src='validator.cc', dependency=['testlib.h'])
+
+## Extra Testsets.
+id='friends'
