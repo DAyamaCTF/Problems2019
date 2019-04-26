@@ -8,7 +8,7 @@ void generate_random(string filename, int mint, int maxt, int minp, int maxp);
 int main(int argc, char* argv[]) {
   registerGen(argc, argv, 1);
   generate_random("small.in",MINT,10,MINP,10);
-  generate_random("med.in",MINT,MAXT,MINP,300);
+  generate_random("med.in",MINT,MAXT,MINP,100);
   generate_random("large.in",MINT,MAXT,MINP,MAXP);
   return 0;
 }
