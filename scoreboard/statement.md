@@ -10,8 +10,16 @@ $A>B$なら"Win"、$A=B$なら"Draw"、$A<B$なら"Lose"を出力してくださ
 
 # Constraints
 
-* $A, B$ は整数
-* $0 \leq A, B \leq 5000$
+- 入力は全て整数である。
+
+## Small
+
+- $0 \leq A, B \leq 10$
+
+## Large
+
+- $0 \leq A, B \leq 334$
+
 
 # Input
 1つの入力ファイルは複数のテストケースからなる。
