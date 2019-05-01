@@ -1,0 +1,10 @@
+#define MIN_T 1
+#define MAX_T 10
+#define MIN_N_SMALL 2
+#define MAX_N_SMALL 10
+#define MIN_N_LARGE 2
+#define MAX_N_LARGE 100000
+#define MIN_A_SMALL (-100000)
+#define MAX_A_SMALL 100000
+#define MIN_A_LARGE (-1000000000)
+#define MAX_A_LARGE 1000000000
