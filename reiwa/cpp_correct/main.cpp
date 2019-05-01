@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
 
 int main() {
   int t;
@@ -8,12 +7,12 @@ int main() {
   for (; t > 0; t--) {
     int n;
     cin >> n;
-    long long s = 0;
+    long long sum = 0;
     for (; n > 1; n--) {
       int a;
       cin >> a;
-      s += a;
+      sum += a;
     }
-    cout << -s << endl;
+    cout << -sum << endl;
   }
 }
