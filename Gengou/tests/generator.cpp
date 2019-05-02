@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void generate (const string &file_name) {
+void generate (const string &file_name, int MIN_T, int MAX_T) {
     ofstream ofs(file_name);
     int T = rnd.next(MIN_T, MAX_T);
     ofs << T << endl;
@@ -20,7 +20,7 @@ void generate (const string &file_name) {
 
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
-    generate("small.in");
-    generate("large.in");
+    generate("small.in", SMALL_MIN_T, SMALL_MAX_T);
+    generate("large.in", LARGE_MIN_T, LARGE_MAX_T);
     return 0;
 }
