@@ -3,7 +3,7 @@
 pid='B'
 
 problem(
-  time_limit=1.0,
+  time_limit=10.0,
   id=pid,
   title=pid + ": Gengou",
   #wiki_name="Your pukiwiki page name", # for wikify plugin

@@ -3,7 +3,7 @@
 pid='reiwa'
 
 problem(
-  time_limit=3.0,
+  time_limit=10.0,
   id=pid,
   title=pid + ": Reiwa",
   reference_solution='cpp-correct',

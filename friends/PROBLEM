@@ -3,7 +3,7 @@
 pid='friends'
 
 problem(
-  time_limit=2.0,
+  time_limit=10.0,
   id=pid,
   title=pid + ": Friends",
 )
