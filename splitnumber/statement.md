@@ -10,15 +10,15 @@
 
 ## Small
 
-- $0 \leq P \leq 10$
+- $1 \leq P \leq 10$
 
 ## Medium
 
-- $0 \leq P \leq 100$
+- $1 \leq P \leq 100$
 
 ## Large
 
-- $0 \leq P \leq 1000$
+- $1 \leq P \leq 1000$
 
 # Input
 1つの入力ファイルは複数のテストケースからなる。
