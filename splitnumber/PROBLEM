@@ -3,7 +3,7 @@
 pid='G'
 
 problem(
-  time_limit=1.0,
+  time_limit=10.0,
   id=pid,
   title=pid + ": Split a Number",
   #wiki_name="-", # for wikify plugin
