@@ -12,7 +12,7 @@
 
 - $0 \leq P \leq 10$
 
-##Medium
+## Medium
 
 - $0 \leq P \leq 100$
 
