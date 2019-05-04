@@ -7,7 +7,7 @@ Problems for Waseda CS orientation 2019
 
 |   | Name |
 |---|---|
-| A | [A Times B](./atimesb/statement.md) |
+| A | [A Times B](./a-mul-b/statement.md) |
 | B | [Scoreboard](./scoreboard/statement.md) |
 | C | [Gengou](./gengou/statement.md) |
 | D | [Reiwa](./reiwa/statement.md) |
