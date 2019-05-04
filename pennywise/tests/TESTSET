@@ -4,4 +4,4 @@
 cxx_generator(src='generator.cpp', dependency=['testlib.h'])
 
 ## Input validators.
-#cxx_validator(src='validator.cc', dependency=['testlib.h'])
+cxx_validator(src='validator.cpp', dependency=['testlib.h'])
