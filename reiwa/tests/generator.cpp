@@ -15,7 +15,7 @@ void generate (const string &file_name, int min_n, int max_n, int min_a, int max
     ofs << N << endl;
     for (int j = 0; j < N - 1; j++) {
       ofs << rnd.next(min_a, max_a);
-      if (j != N - 1) ofs << " ";
+      if (j != N - 2) ofs << " ";
     }
     ofs << endl;
   }
