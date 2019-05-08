@@ -13,6 +13,6 @@ Problems for Waseda CS orientation 2019
 | D | [Reiwa](./reiwa/statement.md) |
 | E | [Flag](./flag/statement.md) |
 | F | [Friends](./friends/statement.md) |
-| G | [Split Number](./colaparty/statement.md) |
+| G | [Cola Party](./colaparty/statement.md) |
 | H | [Pennywise](./pennywise/statement.md) |
 | I | [Suddenly Exploded](./explode/statement.md) |
