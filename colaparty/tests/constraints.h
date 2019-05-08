@@ -1,0 +1,9 @@
+#define MAX_LARGEP 500000
+#define MAX_MEDP 100
+#define MAX_SMALLP 10
+#define MINP 1
+#define MINAB 1
+#define MAXAB 10
+#define MAXT 50
+#define MAX_SMALLT 10
+#define MINT 1
