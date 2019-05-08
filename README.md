@@ -15,4 +15,4 @@ Problems for Waseda CS orientation 2019
 | F | [Friends](./friends/statement.md) |
 | G | [Split Number](./splitnumber/statement.md) |
 | H | [Pennywise](./pennywise/statement.md) |
-| I | [?](./?/statement.md) |
+| I | [Suddenly Exploded](./explode/statement.md) |
