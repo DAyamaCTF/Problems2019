@@ -24,7 +24,7 @@ int dfs(int i, int j){
     int len = 1;
     int ni = i + di[dir], nj = j + dj[dir];
     while(len <= size && isvalid(ni, nj) && map[ni][nj] != '#'){
-      if((isdigit(map[ni][nj]) && reachable[ni][ni] == -1 && dfs(ni, nj) == 1) || map[ni][nj] == 'W'){
+      if((isdigit(map[ni][nj]) && reachable[ni][nj] == -1 && dfs(ni, nj) == 1) || map[ni][nj] == 'W'){
         result = 1;
       }
 
