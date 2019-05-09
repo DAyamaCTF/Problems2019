@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int t, a, b;
+short t, a, b;
 
-int min(int x, int y) {
+short min(short x, short y) {
   if(x < y) return x;
   return y;
 }
