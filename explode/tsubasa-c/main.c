@@ -45,23 +45,6 @@ int solve() {
       }
   for(int qid = 0; qid < queuesize; ++qid) {
     coordinate now = queue[qid], nextp;
-    /*for(int i = -1; i <= 1; ++i)
-      for(int j = -1; j <= 1; ++j)
-        if(i != 0 || j != 0)
-          for(int k = 1; k <= 9; ++k) {
-            nextp = now;
-            nextp.x += i * k;
-            nextp.y += j * k;
-            if(!checkover(nextp)) continue;
-            if(mp[nextp.x][nextp.y] == '#') break;
-            if(mp[nextp.x][nextp.y] == '.' ||
-               ch[nextp.x][nextp.y])
-              continue;
-            if(k <= mp[nextp.x][nextp.y] - '0') {
-              ch[nextp.x][nextp.y] = 1;
-              queue[queuesize++] = nextp;
-            }
-          }*/
     for(int i = 0; i < 4; ++i)
       for(int k = 1; k <= 9; ++k) {
         nextp = now;
