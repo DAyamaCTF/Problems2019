@@ -5,8 +5,8 @@ int main() {
   int t;
   cin >> t;
   for (; t > 0; t--) {
-    long long a, b;
+    int a, b;
     cin >> a >> b;
-    cout << a + b * (1 + min(a, 4ll)) << endl;
+    cout << a + b * (1 + min(a, 4)) << endl;
   }
 }
