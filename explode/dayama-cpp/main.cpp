@@ -5,27 +5,25 @@ using namespace std;
 int H,W;
 int di[] = {0,-1,0,+1};
 int dj[] = {+1,0,-1,0};
-int reachable[51][51];
-char map[51][51];
+bool reachable[101][101];
+char map[101][101];
 
 bool isvalid(int i, int j){
   return i >= 0 && i < H && j >= 0 && j < W;
 }
 
-int dfs(int i, int j){
-  if(reachable[i][j] != -1){
-    return reachable[i][j];
-  }
-  reachable[i][j] = 2; // visited
+void dfs(int i, int j){
+  reachable[i][j] = true; // visited
 
-  int size = map[i][j] - '0';
-  int result = 0;
   for(int dir = 0; dir < 4; dir++){
     int len = 1;
     int ni = i + di[dir], nj = j + dj[dir];
-    while(len <= size && isvalid(ni, nj) && map[ni][nj] != '#'){
-      if((isdigit(map[ni][nj]) && reachable[ni][nj] == -1 && dfs(ni, nj) == 1) || map[ni][nj] == 'W'){
-        result = 1;
+    while(len <= 9 && isvalid(ni, nj) && map[ni][nj] != '#'){
+      if(isdigit(map[ni][nj])){
+        int size = map[ni][nj] - '0';
+        if(len <= size && !reachable[ni][nj]){
+          dfs(ni, nj);
+        }
       }
 
       ni += di[dir]; nj += dj[dir];
@@ -33,7 +31,7 @@ int dfs(int i, int j){
     }
   }
 
-  return reachable[i][j] = result;
+  return ;
 }
 
 int main(){
@@ -46,14 +44,22 @@ int main(){
       scanf("%s", map[i]);
     }
 
-    int ans = 0;
+    memset(reachable, 0, sizeof(reachable));
 
     for(int i = 0; i < H; i++){
       for(int j = 0; j < W; j++){
-        memset(reachable, -1, sizeof(reachable));
+        if(map[i][j] == 'W'){
+          dfs(i, j);
+        }
+      }
+    }
 
-        if(!isdigit(map[i][j])) continue;
-        if(dfs(i, j) == 1) ans++;
+    int ans = 0;
+    for(int i = 0; i < H; i++){
+      for(int j = 0; j < W; j++){
+        if(isdigit(map[i][j]) && reachable[i][j]){
+          ans++;
+        }
       }
     }
     

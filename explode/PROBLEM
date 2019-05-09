@@ -3,7 +3,7 @@
 pid='X'
 
 problem(
-  time_limit=30.0,
+  time_limit=10.0,
   id=pid,
   title=pid + ": Suddenly Exploded",
   #wiki_name="Your pukiwiki page name", # for wikify plugin
@@ -15,4 +15,3 @@ problem(
 atcoder_config(
   task_id=None # None means a spare
 )
-

@@ -18,7 +18,7 @@ void generate (const string &file_name, int min_hw, int max_hw, int min_t, int m
     int facty = rnd.next(0, H-1);
     int factx = rnd.next(0, W-1);
 
-    int density = rnd.next(10, 70);
+    int density = rnd.next(20, 70);
     for (int j = 0; j < H; j++) {
       for(int k = 0; k < W; k++) {
         if(j == facty && k == factx){

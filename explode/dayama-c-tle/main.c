@@ -4,8 +4,8 @@
 int H,W;
 int di[] = {0,-1,0,+1};
 int dj[] = {+1,0,-1,0};
-int reachable[51][51];
-char map[51][51];
+int reachable[101][101];
+char map[101][101];
 
 int isvalid(int i, int j){
   return (i >= 0 && i < H && j >= 0 && j < W ? 1 : 0);
