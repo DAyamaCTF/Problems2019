@@ -7,7 +7,7 @@ int main() {
   for (; t > 0; t--) {
     int n;
     cin >> n;
-    long long sum = 0;
+    int sum = 0;
     for (; n > 1; n--) {
       int a;
       cin >> a;
