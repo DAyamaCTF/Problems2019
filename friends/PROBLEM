@@ -1,9 +1,12 @@
 # -*- coding: utf-8; mode: python -*-
 
-pid='friends'
+pid='F'
 
 problem(
   time_limit=10.0,
   id=pid,
   title=pid + ": Friends",
+  wiki_name="-", # for wikify plugin
+  assignees=['remin'], # for wikify plugin
+  need_custom_judge=False, # for wikify plugin
 )
