@@ -5,7 +5,7 @@ pid='A'
 problem(
   time_limit=10.0,
   id=pid,
-  title=pid + "A times B",
+  title=pid + ": A times B",
   wiki_name="-", # for wikify plugin
   assignees=['dayama'], # for wikify plugin
   need_custom_judge=False, # for wikify plugin
