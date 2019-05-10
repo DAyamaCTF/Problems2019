@@ -5,7 +5,7 @@ pid='E'
 problem(
   time_limit=10.0,
   id=pid,
-  title=pid + "Flags",
+  title=pid + ": Flags",
   wiki_name="-", # for wikify plugin
   assignees=['dayama'], # for wikify plugin
   need_custom_judge=False, # for wikify plugin

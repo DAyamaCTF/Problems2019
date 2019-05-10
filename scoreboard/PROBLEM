@@ -5,7 +5,7 @@ pid='B'
 problem(
   time_limit=10.0,
   id=pid,
-  title=pid + "scoreboard",
+  title=pid + ": scoreboard",
   wiki_name="-", # for wikify plugin
   assignees=['ryoissy'], # for wikify plugin
   need_custom_judge=False, # for wikify plugin
