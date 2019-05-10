@@ -1,10 +1,13 @@
 # -*- coding: utf-8; mode: python -*-
 
-pid='reiwa'
+pid='D'
 
 problem(
   time_limit=10.0,
   id=pid,
   title=pid + ": Reiwa",
+  wiki_name="-", # for wikify plugin
+  assignees=['remin'], # for wikify plugin
+  need_custom_judge=False, # for wikify plugin
   reference_solution='cpp-correct',
 )

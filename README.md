@@ -3,6 +3,8 @@ Problems for Waseda CS orientation 2019
 
 2019年情報理工学科オリエンテーション用の問題リポジトリです
 
+**[作業進捗MD](summary.md)**
+
 ## Problems
 
 |   | Name |
