@@ -24,5 +24,8 @@ int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
     generate("small.in", SMALL_MIN_T, SMALL_MAX_T);
     generate("large.in", LARGE_MIN_T, LARGE_MAX_T);
+    for(int i=0;i<10;++i){
+        generate("random_test"+to_string(i)+".in", LARGE_MIN_T, LARGE_MAX_T);
+    }
     return 0;
 }
