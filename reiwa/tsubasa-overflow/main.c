@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  short  a, n, t;
+  short  a;
+  int t, n;
   scanf("%d", &t);
   for(int tt = 0; tt < t; ++tt) {
     scanf("%d", &n);

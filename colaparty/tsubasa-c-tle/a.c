@@ -20,6 +20,6 @@ int solve() {
   int ans = 0;
   for(int y = 1; B * y <= P; ++y)
     for(int x = 1;A * x + B * y <= P; ++x)
-        ++ans; 
+        if(A*x + B * y == P)++ans; 
   return ans;
 }
