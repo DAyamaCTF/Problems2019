@@ -14,10 +14,13 @@ $A>B$なら"Win"、$A=B$なら"Draw"、$A<B$なら"Lose"を出力してくださ
 
 ## Small
 
+- $T = 10$
 - $0 \leq A, B \leq 10$
+- 答えが"Marines", "Tigers"になるケースは与えられない。
 
 ## Large
 
+- $T = 100$
 - $0 \leq A, B \leq 334$
 
 
