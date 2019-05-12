@@ -12,7 +12,7 @@
 ## Small
 
 - $2 \leq N \leq 10$
-- $0 \leq |A_i| \leq 10^5 (1 \leq i \leq N - 1)$
+- $0 \leq |A_i| \leq 10 (1 \leq i \leq N - 1)$
 
 ## Large
 
