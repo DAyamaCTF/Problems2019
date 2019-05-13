@@ -1,0 +1,58 @@
+contest_name: Waseda Orientation Programming Contest 2018
+problems:
+  - dir_name: a-mul-b
+    data_sets:
+      - label: Small
+        score: 5
+      - label: Large
+        score: 5
+  - dir_name: scoreboard
+    data_sets:
+      - label: Small
+        score: 10
+      - label: Large
+        score: 100
+  - dir_name: gengou
+    data_sets:
+      - label: Small
+        score: 10
+      - label: Large
+        score: 100
+  - dir_name: reiwa
+    data_sets:
+      - label: Small
+        score: 20
+      - label: Large
+        score: 200
+  - dir_name: flag
+    data_sets:
+      - label: Small
+        score: 20
+      - label: Large
+        score: 200
+  - dir_name: friends
+    data_sets:
+      - label: Small
+        score: 30
+      - label: Large
+        score: 300
+  - dir_name: colaparty
+    data_sets:
+      - label: Small
+        score: 40
+      - label: Medium
+        score: 400
+      - label: Large
+        score: 200
+  - dir_name: pennywise
+    data_sets:
+      - label: Small
+        score: 50
+      - label: Large
+        score: 700
+  - dir_name: explode
+    data_sets:
+      - label: Small
+        score: 50
+      - label: Large
+        score: 800

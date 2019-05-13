@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
   registerGen(argc, argv, 1);
   generate_random("small.in", MAX_SMALLT, MAX_SMALLT, MINP,
                   MAX_SMALLP, MINAB, MAXAB);
-  generate_random("med.in", MAXT, MAXT, MINP, MAX_MEDP,
+  generate_random("medium.in", MAXT, MAXT, MINP, MAX_MEDP,
                   MINAB, MAXAB);
   generate_random("large.in", MAXT, MAXT, MINP, MAX_LARGEP,
                   MINAB, MAXAB);
