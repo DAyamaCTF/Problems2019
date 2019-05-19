@@ -5,6 +5,7 @@ import yaml
 import sys
 import json
 import os
+import re
 
 usage = """
 Problem data json file generator from rime for WPCS2
@@ -31,13 +32,13 @@ def open_and_read_file(file_name) :
 
 
 def sanitize_title(title) :
-    if title.startswith('X: ') :
-        return title[3:]
-    elif title.startswith('X:') :
-        return title[2:]
-    elif title.startswith('X') :
-        return title[1:]
-    return title
+    pattern = r"^[a-zA-Z]:? ?"
+    matched = re.match(pattern, title)
+
+    if matched :
+        return title[matched.end():]
+    else :
+        return title
 
 
 if __name__ == '__main__' :
