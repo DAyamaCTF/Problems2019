@@ -31,7 +31,7 @@
  
 ## Large
 
-* $1 \leq P \leq 5 \times 10\^{5} $
+* $1 \leq P \leq 5 \times 10^{5} $
 * $T = 50$
 
 # Input
