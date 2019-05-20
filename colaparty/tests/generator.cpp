@@ -9,8 +9,6 @@ void generate_random(string filename, int mint, int maxt,
 
 int main(int argc, char* argv[]) {
   registerGen(argc, argv, 1);
-  generate_random("small.in", MAX_SMALLT, MAX_SMALLT, MINP,
-                  MAX_SMALLP, MINAB, MAXAB);
   generate_random("medium.in", MAXT, MAXT, MINP, MAX_MEDP,
                   MINAB, MAXAB);
   generate_random("large.in", MAXT, MAXT, MINP, MAX_LARGEP,
@@ -32,7 +30,6 @@ void generate_random(string filename, int mint, int maxt,
     a = rnd.next(minab, maxab);
     b = a;
     while(a == b) b = rnd.next(minab, maxab);
-    if(a > b) swap(a, b);
     p = rnd.next(minp, maxp);
     ofs << a << " " << b << " " << p << endl;
   }

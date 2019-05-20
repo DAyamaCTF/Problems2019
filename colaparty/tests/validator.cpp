@@ -7,6 +7,7 @@ void check_case(){
   int a = inf.readInt(MINAB, MAXAB, "a");
   inf.readSpace();
   int b = inf.readInt(MINAB, MAXAB, "b");
+  ensuref(a != b, "A is not equal to B");
   inf.readSpace();
   int p = inf.readInt(MINP, MAX_LARGEP, "p");
   inf.readEoln();
