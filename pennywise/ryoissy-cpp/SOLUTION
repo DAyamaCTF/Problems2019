@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: python -*-
+
+## Solution
+cxx_solution(src='main.cpp', flags=[])
+
+## Score
+#expected_score(100)
