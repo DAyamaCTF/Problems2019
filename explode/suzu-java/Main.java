@@ -6,10 +6,9 @@ public class Main{
         int t = sc.nextInt();
         int[] di = {0,-1,0,+1};
         int[] dj = {+1,0,-1,0};
-        int m, n;
         while(t-- > 0){
-            m = sc.nextInt();
-            n = sc.nextInt();
+            int m = sc.nextInt();
+            int n = sc.nextInt();
             char[][] map = new char[m][n];
             int fi=-1, fj=-1;
             int ans = 0;
@@ -48,54 +47,6 @@ public class Main{
                         }
                     }
                 }
-                // for(int k = 1; k < 10; ++k){
-                //     if(i+k>=m) break;
-                //     if(map[i+k][j]=='#') break;
-                //     if(map[i+k][j]=='.') continue;
-                //     if(map[i+k][j]-'0' >= k){
-                //         map[i+k][j] = '.';
-                //         ans++;
-                //         qi.add(i+k);
-                //         qj.add(j);
-                //         break;
-                //     }
-                // }
-                // for(int k = 1; k < 10; ++k){
-                //     if(i-k<0) break;
-                //     if(map[i-k][j]=='#') break;
-                //     if(map[i-k][j]=='.') continue;
-                //     if(map[i-k][j]-'0' >= k){
-                //         map[i-k][j] = '.';
-                //         ans++;
-                //         qi.add(i-k);
-                //         qj.add(j);
-                //         break;
-                //     }
-                // }
-                // for(int l = 1; l < 10; ++l){
-                //     if(j+l>=n) break;
-                //     if(map[i][j+l]=='#') break;
-                //     if(map[i][j+l]=='.') continue;
-                //     if(map[i][j+l]-'0' >= l){
-                //         map[i][j+l] = '.';
-                //         ans++;
-                //         qi.add(i);
-                //         qj.add(j+l);
-                //         break;
-                //     }
-                // }
-                // for(int l = 1; l < 10; ++l){
-                //     if(j-l<0) break;
-                //     if(map[i][j-l]=='#') break;
-                //     if(map[i][j-l]=='.') continue;
-                //     if(map[i][j-l]-'0' >= l){
-                //         map[i][j-l] = '.';
-                //         ans++;
-                //         qi.add(i);
-                //         qj.add(j-l);
-                //         break;
-                //     }
-                // }
             }
             System.out.println(ans);
         }
